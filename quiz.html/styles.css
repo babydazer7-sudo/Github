@@ -1,0 +1,52 @@
+/* Reset default margins/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+/* Header */
+.header {
+  background-color: #4169E1;  /* royal blue */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Content */
+.content {
+  margin-left: 220px; /* push right to avoid overlap */
+  padding: 20px;
+}
+
+/* Border box around styles */
+.border-box {
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff;
+}
+
+/* Border examples */
+p {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.dotted {border-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.double {border-style: double;}
+.groove {border-style: groove;}
+.ridge {border-style: ridge;}
+.inset {border-style: inset;}
+.outset {border-style: outset;}
+.none {border-style: none;}
+.hidden {border-style: hidden;}
+.mix {border-style: dotted dashed solid double;}
