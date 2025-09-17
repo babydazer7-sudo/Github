@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Padding Example</title>
+<style>
+  body {
+    font-family: Georgia, serif;
+    margin: 0;
+  }
+  nav {
+    background-color: #2980b9;
+    padding: 10px;
+  }
+  nav a {
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  h1 {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  section {
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+  }
+  .single-padding p, .multi-padding p, .all-side-padding p {
+    border: 2px solid #2980b9;
+    border-radius: 15px;
+    width: 120px;
+    margin: 10px;
+    float: left;
+    font-size: 14px;
+  }
+  /* Single Padding examples */
+  .left-padding {
+    padding-left: 10px;
+  }
+  .right-padding {
+    padding-right: 15px;
+  }
+  .top-padding {
+    padding-top: 25px;
+  }
+  .bottom-padding {
+    padding-bottom: 35px;
+  }
+  /* Multi Padding examples */
+  .top-right-padding {
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  .right-bottom-padding {
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  .bottom-left-padding {
+    padding-bottom: 25px;
+    padding-left: 25px;
+  }
+  .left-top-padding {
+    padding-left: 35px;
+    padding-top: 35px;
+  }
+  /* All Side Padding */
+  .all-padding {
+    padding: 25px;
+  }
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+</style>
+</head>
+<body>
+
+
+<h1>Padding</h1>
+
+<section class="single-padding clearfix">
+  <h3>Single Padding</h3>
+  <p class="left-padding">This paragraph has a left padding of 10 px</p>
+  <p class="right-padding">This paragraph has a right padding of 15 px</p>
+  <p class="top-padding">This paragraph has a top padding of 25 px</p>
+  <p class="bottom-padding">This paragraph has a bottom padding of 35 px</p>
+</section>
+
+<section class="multi-padding clearfix">
+  <h3>Multi Padding</h3>
+  <p class="top-right-padding">This paragraph has a top and right padding of 10 px</p>
+  <p class="right-bottom-padding">This paragraph has a right and bottom padding of 15 px</p>
+  <p class="bottom-left-padding">This paragraph has a bottom and left padding of 25 px</p>
+  <p class="left-top-padding">This paragraph has a left and top padding of 35 px</p>
+</section>
+
+<section class="all-side-padding clearfix">
+  <h3>All Side Padding</h3>
+  <p class="all-padding">This paragraph has all side padding of 25 px</p>
+</section>
+
+</body>
+</html>
