@@ -1,0 +1,147 @@
+/* first container & left margin space */
+
+.bobox {
+ display: grid;
+ grid-template-columns: repeat(3, 80px);
+ grid-template-rows: repeat(3, 80px);
+ gap: 0;
+ border: 2px solid black;
+ width: max-content;
+ margin: 10px;
+ margin-top: 2px;
+}
+.box {
+ background-color: rgb(145, 186, 224);
+ border: 1px solid black;
+ display: flex;
+ justify-content: center;
+ font-family: arial, sans-serif;
+ font-size: 14px;
+}
+.middle1 {
+ 
+  background:white;
+  border: 1px solid black;
+  text-align: left;
+  font-weight: bold ;
+  margin-left: 10px;
+  background-color: lightblue;
+
+}
+
+.middle p{
+  
+  margin-left: 5px;
+}
+
+/* 2nd container & right margin space */
+
+.yaj {
+ display: grid;
+ grid-template-columns: repeat(3, 80px);
+ grid-template-rows: repeat(3, 80px);
+ gap: 0;
+ border: 1px solid black;
+ width: max-content;
+ margin: 10px;
+ margin-top: -252px;
+  margin-left: 300px;
+}
+.box {
+ background-color: rgb(145, 186, 224);
+ border: 1px solid black;
+ display: flex;
+ justify-content: center;
+ font-family: arial, sans-serif;
+ font-size: 14px;
+}
+.middle2 {
+ 
+  background:white;
+  border: 1px solid black;
+  text-align: left;
+  font-weight: bold ;
+  margin-right: 10px;
+  background-color: lightblue;
+
+}
+
+.middle p{
+  
+  margin-left: 5px;
+}
+
+/* 4nd container & buttom margin space */
+
+.jan {
+ display: grid;
+ grid-template-columns: repeat(3, 80px);
+ grid-template-rows: repeat(3, 80px);
+ gap: 0;
+ border: 1px solid black;
+ width: max-content;
+ margin: 10px;
+ margin-top: -254px;
+  margin-left: 875px;
+}
+.box {
+ background-color: rgb(145, 186, 224);
+ border: 1px solid black;
+ display: flex;
+ justify-content: center;
+ font-family: arial, sans-serif;
+ font-size: 14px;
+}
+.middle4 {
+ 
+  background:white;
+  border: 1px solid black;
+  text-align: left;
+  font-weight: bold ;
+  margin-bottom: 10px;
+  background-color: lightblue;
+
+}
+
+.middle p{
+  
+  margin-left: 5px;
+}
+
+/* 3nd container & top margin space */
+
+.jay{
+ display: grid;
+ grid-template-columns: repeat(3, 80px);
+ grid-template-rows: repeat(3, 80px);
+ gap: 0;
+ border: 1px solid black;
+ width: max-content;
+ margin: 10px;
+ margin-top: -254px;
+  margin-left: 588px;
+}
+.box {
+ background-color: rgb(145, 186, 224);
+ border: 1px solid black;
+ display: flex;
+ justify-content: center;
+ font-family: arial, sans-serif;
+ font-size: 25px;
+}
+.middle3 {
+ 
+  background:white;
+  border: 1px solid black;
+  text-align: left;
+  font-weight: bold ;
+  margin-top: 10px;
+  background-color: rgb(145, 186, 224);
+
+}
+
+.middle p{
+  
+  margin-left: 5px;
+}
+Write to Ronjay Obiasada
